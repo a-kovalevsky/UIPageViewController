@@ -19,8 +19,8 @@ class PageViewController: UIPageViewController {
         
 //отображаем вызывая функцию контент вью контроллер
         if let contentViewController = showViewControllerAtIndex(0) {
-            setViewControllers([contentViewController], direction: .forward, animated: true, completion: nil)//то тогда обращаемсся к методу который делает массив вью контроллеров ,direction это направление движения
-            //немного хз зачем етот массив
+            setViewControllers([contentViewController], direction: .forward, animated: true, completion: nil)
+            
         }
         
     }
